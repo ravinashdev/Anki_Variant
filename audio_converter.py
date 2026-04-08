@@ -7,13 +7,13 @@ import pandas as pd
 foreign_language_to_english_data = pd.read_csv("Polish To English Data - 500.csv")
 # print(foreign_language_to_english_data)
 foreign_language_to_english_dictionary = foreign_language_to_english_data.to_dict(orient="records")
-print(foreign_language_to_english_dictionary)
+# print(foreign_language_to_english_dictionary)
 words_list = [(item["Rank"],item["Polish"]) for item in foreign_language_to_english_dictionary]
-print(words_list)
+# print(words_list)
 
 # List of 500 Polish words with rank van expand to any size based on csv and data frame
 words = words_list
-print(words_list)
+# print(words_list)
 
 # Create folder to store MP3s
 os.makedirs("polish_audio", exist_ok=True)
