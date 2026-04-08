@@ -1,5 +1,5 @@
 # Anki_Variant
-## Polish (Modular for any language) to English Translator
+## Polish (Modular for any language) to English Flashcard Practice Application
 ### With phonetic spelling & pronunciation
 ### Example includes 500 of the most frequently used Polish words can expand up to 50,000
 
