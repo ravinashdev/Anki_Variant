@@ -125,7 +125,7 @@ rank_place_holder = canvas.create_text(400, TEXT_START_Y + 210, text="Rank", fon
 
 # Buttons
 wrong_png = PhotoImage(file="images/wrong.png")
-play_png = PhotoImage(file="images/play.png")
+play_png = PhotoImage(file="images/sound.png")
 rotate_png = PhotoImage(file="images/rotate.png")
 right_png = PhotoImage(file="images/right.png")
 
