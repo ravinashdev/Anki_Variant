@@ -1,3 +1,4 @@
+# ---------------------------- IMPORTS ------------------------------- #
 from gtts import gTTS
 from zipfile import ZipFile
 import os
@@ -10,7 +11,7 @@ print(foreign_language_to_english_dictionary)
 words_list = [(item["Rank"],item["Polish"]) for item in foreign_language_to_english_dictionary]
 print(words_list)
 
-# List of 500 Polish words with rank
+# List of 500 Polish words with rank van expand to any size based on csv and data frame
 words = words_list
 print(words_list)
 
